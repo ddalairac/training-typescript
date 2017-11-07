@@ -22,3 +22,5 @@ examplesAngular/src/**.js.map
 examplesAngular/src/**.map
 examplesAngular/src/**.css
 
+### 01-dataTypes ###
+01-dataTypes/**.js
