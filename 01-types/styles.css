@@ -3,5 +3,11 @@ body {
 	width: 50%;
 	margin: 50px auto;
 	font-family: monospace;
-	font-size: 30px;
+	/* font-size: 30px; */
+}
+h1{
+	font-size: 24x;
+}
+p{
+	font-size: 14px;
 }
