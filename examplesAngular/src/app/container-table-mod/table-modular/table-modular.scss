@@ -14,12 +14,12 @@ $border-radius-tm: 10px;
     &__total {
         font-size: $font-size-base;
         color: $brand-font-blueGrey;
-        font-family: 'Gustan-Book';
+        font-family: Arial, Helvetica, sans-serif;
         text-transform: uppercase;
         display: inline-block;
         span {
             color: $brand-font-darkBlueGrey;
-            font-family: 'Gustan-Bold';
+            font-family: Arial, Helvetica, sans-serif;
             padding-left: 5px;
         }
     }
@@ -59,7 +59,7 @@ $border-radius-tm: 10px;
 }
 
 .row-thead {
-    font-family: 'Gustan-Bold';
+    font-family: Arial, Helvetica, sans-serif;
     color: $brand-font-blueGrey;
     padding: 5px;
 }
@@ -249,7 +249,7 @@ $border-radius-tm: 10px;
                 top: 0;
                 left: 20px;
                 width: 45%;
-                font-family: 'Gustan-Bold';
+                font-family: Arial, Helvetica, sans-serif;
                 color: $brand-font-blueGrey;
                 content: attr(data-th);
             }

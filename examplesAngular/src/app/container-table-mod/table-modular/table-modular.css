@@ -158,7 +158,7 @@ button:focus {
 }
 
 .btn-gray {
-    font-family: 'Gustan-Book';
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     border: none;
     margin-bottom: 6px;
@@ -673,7 +673,7 @@ input:valid {
 .table-modular-summary__total {
     font-size: 14px;
     color: #818b95;
-    font-family: 'Gustan-Book';
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     display: inline-block;
 }
@@ -681,7 +681,7 @@ input:valid {
 .table-modular-summary__item span,
 .table-modular-summary__total span {
     color: #4d565f;
-    font-family: 'Gustan-Bold';
+    font-family: Arial, Helvetica, sans-serif;
     padding-left: 5px;
 }
 
@@ -723,7 +723,7 @@ input:valid {
 }
 
 .row-thead {
-    font-family: 'Gustan-Bold';
+    font-family: Arial, Helvetica, sans-serif;
     color: #818b95;
     padding: 5px;
 }
@@ -901,7 +901,7 @@ input:valid {
         top: 0;
         left: 20px;
         width: 45%;
-        font-family: 'Gustan-Bold';
+        font-family: Arial, Helvetica, sans-serif;
         color: #818b95;
         content: attr(data-th);
     }

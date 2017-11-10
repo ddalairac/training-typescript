@@ -49,8 +49,8 @@ $brand-status-denied: 	#ce2439;
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
-$title-font: 'Gustan-Book';
-$title-font-bold: 'Gustan-Bold';
+$title-font: Arial, Helvetica, sans-serif;
+$title-font-bold: $title-font;
 
 //Bootstrap colors: DO NOT USE THEM!
 $gray-base:             #000000 !default;
@@ -114,7 +114,7 @@ $table-cout:         	$brand-font-grey;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Arial", Helvetica, sans-serif ;
+$font-family-sans-serif:  Arial, Helvetica, sans-serif;
 
 
 

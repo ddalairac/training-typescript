@@ -19,7 +19,7 @@
 		background-color: white;
 	}
 	.row-thead{
-		font-family: 'Gustan-Bold';
+		font-family: Arial, Helvetica, sans-serif;
 		color: $brand-font-blueGrey; 
 		border-bottom: 1px solid $brand-tableLine; 
 	}
@@ -197,7 +197,7 @@
 					top:0;
 					left: 20px;
 					width: 45%; 
-					font-family: 'Gustan-Bold';
+					font-family: Arial, Helvetica, sans-serif;
 					color: $brand-font-blueGrey; 
 					//white-space: nowrap;
 					content: attr(data-th);
