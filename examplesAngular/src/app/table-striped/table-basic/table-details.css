@@ -16,11 +16,11 @@
   .details__title {
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-family: 'Gustan-Book';
+    font-family: Arial, Helvetica, sans-serif;
     color: #4d565f;
     margin-left: 38px; }
   .details__subTitle {
-    font-family: 'Gustan-Bold';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px; }
   .details__content {
     font-size: 14px; }
@@ -90,10 +90,10 @@
   .details__title {
     margin-bottom: 10px;
     font-size: 14px;
-    font-family: 'Gustan-Bold'; }
+    font-family: Arial, Helvetica, sans-serif; }
   .details__list__listitem .details__subTitle {
     width: 45%;
-    font-family: 'Gustan-Bold';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #818b95;
     float: left;
@@ -110,7 +110,7 @@
   .details__historic-info {
     margin-top: 4px; }
     .details__historic-info .details__subTitle {
-      font-family: 'Gustan-Bold';
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 12px;
       display: inline-block; }
     .details__historic-info .details__content {

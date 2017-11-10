@@ -7,7 +7,7 @@
     margin-left: 5px; }
 
 .btn-table-action {
-  font-family: 'Gustan-Book';
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   border: none;
   padding: 5px 5px;
@@ -89,7 +89,7 @@
         background-color: #3f3f3f; }
 
 .ico-status {
-  font-family: 'Gustan-Bold';
+  font-family: Arial, Helvetica, sans-serif;
   min-width: 59px;
   height: 22px;
   background-repeat: no-repeat;
@@ -152,7 +152,7 @@
 .table-dinamic .roweven {
   background-color: white; }
 .table-dinamic .row-thead {
-  font-family: 'Gustan-Bold';
+  font-family: Arial, Helvetica, sans-serif;
   color: #818b95;
   border-bottom: 1px solid #e1e1e1; }
 .table-dinamic .row-columns,
@@ -270,7 +270,7 @@
       top: 0;
       left: 20px;
       width: 45%;
-      font-family: 'Gustan-Bold';
+      font-family: Arial, Helvetica, sans-serif;
       color: #818b95;
       content: attr(data-th); }
     .table-dinamic .row-columns .column:not(.column--accordion) {

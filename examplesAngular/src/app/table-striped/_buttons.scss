@@ -11,16 +11,16 @@
 }
 
 .btn-table-action {
-    font-family: 'Gustan-Book';
+    font-family: Arial, sans-serif;
     color: white;
     border: none;
     padding: 5px 5px;
     width: 100%;
     font-size: 14px;
-    background-color: $icbc-secondary;
+    background-color: $brand-secondary;
     &:hover {
         color: white;
-        background-color: $icbc-secondary-hover;
+        background-color: $brand-secondary-hover;
     }
     &.btn-summary-action {
         width: auto;
@@ -33,18 +33,18 @@
     border: none;
     padding: 0;
     font-size: 14px;
-    color: $icbc-secondary;
+    color: $brand-secondary;
     background-color: transparent;
     min-height: 34px;
     min-width: 34px;
     [class^="fa-"], [class*=" fa-"] {
         //font-size: 34px;
-        color: $icbc-secondary;
+        color: $brand-secondary;
     }
     &:hover {
         background-color: transparent;
         span {
-            color:$icbc-secondary-hover;
+            color:$brand-secondary-hover;
         }
     }
     &:focus, &:active:focus {
@@ -68,7 +68,7 @@
         border: none;
         border-radius: 0px;
         padding: 0px 0;
-        background-color: $icbc-secondary;
+        background-color: $brand-secondary;
         -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
         li {
@@ -87,7 +87,7 @@
                 border-bottom:none;
             }
             &:hover {
-                background-color: $icbc-secondary-hover;
+                background-color: $brand-secondary-hover;
             }
         }
     }

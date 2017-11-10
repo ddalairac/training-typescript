@@ -7,7 +7,7 @@
     padding-left: 22px;
     padding-right: 22px;
     padding-bottom: 15px;
-    border-bottom: 1px solid $icbc-tableLine; 
+    border-bottom: 1px solid $brand-tableLine; 
 }
     .details {
         width: 100%;
@@ -19,12 +19,12 @@
         &__title {
             text-transform: uppercase;
             margin-bottom: 10px;
-            font-family: 'Gustan-Book';
-            color: $icbc-font-darkBlueGrey;
+            font-family: Arial, Helvetica, sans-serif;
+            color: $brand-font-darkBlueGrey;
             margin-left: 38px;
         }
         &__subTitle{
-            font-family: 'Gustan-Bold';
+            font-family: Arial, Helvetica, sans-serif;
             font-size: $font-size-small;
         }
         &__content{
@@ -50,7 +50,7 @@
 
             &__listitem {
                 margin-bottom: 5px;
-                color:$icbc-font-darkGrey;
+                color:$brand-font-darkGrey;
             } 
             &__histoitem {
                 width:  calc(25% - 8px);
@@ -64,32 +64,32 @@
 
                 &--status{
                     &-draft {
-                        border-top: 3px solid $icbc-status-draft;
+                        border-top: 3px solid $brand-status-draft;
                     }
                     &-reopened {
-                        border-top: 3px solid $icbc-status-reopened;
+                        border-top: 3px solid $brand-status-reopened;
                     }
                     &-created {
-                        border-top: 3px solid $icbc-status-created;
+                        border-top: 3px solid $brand-status-created;
                     }
                     &-signed {
-                        border-top: 3px solid $icbc-status-signed;
+                        border-top: 3px solid $brand-status-signed;
                     }
                     &-approved {
-                        border-top: 3px solid $icbc-status-approved;
+                        border-top: 3px solid $brand-status-approved;
                     }
                     &-released {
-                        border-top: 3px solid $icbc-status-released;
+                        border-top: 3px solid $brand-status-released;
                     }
                     &-in_process,
                     &-process, 
                     &-with_errors {
-                        border-top: 3px solid $icbc-status-process;
+                        border-top: 3px solid $brand-status-process;
                     }
                     &-denied,
                     &-expired,
                     &-rejected {
-                        border-top: 3px solid $icbc-status-denied;
+                        border-top: 3px solid $brand-status-denied;
                     }
                 }
             }
@@ -132,15 +132,15 @@
         &__title {
             margin-bottom: 10px;
             font-size: $font-size-base;
-            font-family: 'Gustan-Bold';
+            font-family: Arial, Helvetica, sans-serif;
         }
         &__list{
             &__listitem {
                 .details__subTitle{
                     width: 45%;
-                    font-family: 'Gustan-Bold';
+                    font-family: Arial, Helvetica, sans-serif;
                     font-size: $font-size-small;
-                    color: $icbc-font-blueGrey;
+                    color: $brand-font-blueGrey;
                     float: left;
                     padding-bottom: 7px;
                 }
@@ -162,7 +162,7 @@
             margin-top: 4px;
 
             .details__subTitle{
-                font-family: 'Gustan-Bold';
+                font-family: Arial, Helvetica, sans-serif;
                 font-size: $font-size-small;
                 display: inline-block;
             }
@@ -182,7 +182,7 @@
             }
             a:not(:last-child):after {
                 content: ", ";
-                color: $icbc-font-blueGrey;
+                color: $brand-font-blueGrey;
             }
         }
     }

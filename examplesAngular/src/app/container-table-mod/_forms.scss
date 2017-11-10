@@ -6,7 +6,7 @@
         border-radius:initial;
         outline: none;
         font-family:Arial, Helvetica, sans-serif; 
-        color: $icbc-font-header;
+        color: $brand-font-header;
         padding-left: 0;
         background: inherit;
         &:focus{
@@ -19,7 +19,7 @@
         
     }
     label {
-        font-family:Gustan-Bold; 
+        font-family:Arial, Helvetica, sans-serif; 
         font-size:$font-size-label; 
         input[type="file"] {
             display: none;
