@@ -140,15 +140,15 @@ button:focus{
     border: none;
     margin-bottom:6px; 
     font-size: $font-size-base;
-    background: $icbc-secondary;
+    background: $brand-secondary;
 
     /* max-width: 226px;
     margin-bottom:6px; */ 
     font-size: $font-size-base;
-    background-color: $icbc-secondary;
+    background-color: $brand-secondary;
     &:hover {
         color: white;
-        background-color: $icbc-secondary-hover;
+        background-color: $brand-secondary-hover;
     }
     
 }
@@ -168,12 +168,12 @@ button:focus{
 
 .btn-tertiary {
     min-width: 90px;
-    background-color: $icbc-secondary;
+    background-color: $brand-secondary;
     border: none;
     color: white;
     &:hover {
         color: white;
-        background-color: $icbc-secondary-hover;
+        background-color: $brand-secondary-hover;
     }
     &:focus {
         color: white;
@@ -207,7 +207,7 @@ button:focus{
         margin: 0;
         padding-top: 5px;
         text-align: center;
-        font-size: $icbc-size-icons;
+        font-size: $brand-size-icons;
         vertical-align: middle;
         display: inline-block;
     }
@@ -219,12 +219,12 @@ button:focus{
     }
     &:hover {
         .circle{
-            background: $icbc-background;
-            color: $icbc-primary-hover;
-            border: 1px solid $icbc-primary-hover;
+            background: $brand-background;
+            color: $brand-primary-hover;
+            border: 1px solid $brand-primary-hover;
         }
         .text{
-            color:$icbc-primary-hover;
+            color:$brand-primary-hover;
         }
     }
     &--disable{
@@ -364,19 +364,19 @@ button:focus{
     padding: 0;
     width: 34px;
     height: 34px;
-    font-size: $icbc-size-icons;
-    color: $icbc-secondary;
+    font-size: $brand-size-icons;
+    color: $brand-secondary;
     background-color: transparent;
     //min-height: 34px;
     //min-width: 34px;
     [class^="icon-"], [class*=" icon-"] {
         //font-size: 34px;
-        color: $icbc-secondary;
+        color: $brand-secondary;
     }
     &:hover {
         background-color: transparent;
         span {
-            color:$icbc-secondary-hover;
+            color:$brand-secondary-hover;
         }
     }
     &:focus, &:active:focus {
@@ -399,13 +399,13 @@ button:focus{
 
 .btn-form__add {
     .glyphicon {
-        color: $icbc-primary;
+        color: $brand-primary;
         position: absolute;
         top: 8px;
         left: 10px;
     }
     &--text {
-        color: $icbc-primary;
+        color: $brand-primary;
         display: inline-block;
         vertical-align: middle;
         text-align: left;
@@ -425,7 +425,7 @@ button:focus{
         border: none;
         border-radius: 0px;
         padding: 0px 0;
-        background-color: $icbc-secondary;
+        background-color: $brand-secondary;
         -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
         li {
@@ -444,7 +444,7 @@ button:focus{
                 border-bottom:none;
             }
             &:hover {
-                background-color: $icbc-secondary-hover;
+                background-color: $brand-secondary-hover;
             }
         }
     }

@@ -20,15 +20,15 @@
 	}
 	.row-thead{
 		font-family: 'Gustan-Bold';
-		color: $icbc-font-blueGrey; 
-		border-bottom: 1px solid $icbc-tableLine; 
+		color: $brand-font-blueGrey; 
+		border-bottom: 1px solid $brand-tableLine; 
 	}
 	.row-columns,
 	.row-actions-mobile,
 	.row-details{
-		border-bottom: 1px solid $icbc-tableLine; 
+		border-bottom: 1px solid $brand-tableLine; 
 		font-family: arial;
-		color: $icbc-font-darkBlueGrey; 
+		color: $brand-font-darkBlueGrey; 
 	}
 	.row-details{
 		margin: 0;
@@ -46,28 +46,28 @@
 	}
 
 	.row--danger{
-		background: $icbc-dangerLigth;
-		.feedbackline{background: $icbc-danger;}
+		background: $brand-dangerLigth;
+		.feedbackline{background: $brand-danger;}
 	}
 	.row--warning{
-		background: $icbc-warningLigth;
-		.feedbackline{background: $icbc-warning;}
+		background: $brand-warningLigth;
+		.feedbackline{background: $brand-warning;}
 	}
 	.row--success{
-		background: $icbc-successLigth;
-		.feedbackline{background: $icbc-success;}
+		background: $brand-successLigth;
+		.feedbackline{background: $brand-success;}
 	}
 	.row--info{
-		background: $icbc-infoLigth;
-		.feedbackline{background: $icbc-info;}
+		background: $brand-infoLigth;
+		.feedbackline{background: $brand-info;}
 	}
 	.row--select{
-		background: $icbc-infoLigth;
+		background: $brand-infoLigth;
 		//.feedbackline{background: transparent;} 
 	}
 	.row--disabled{
 		opacity: .3;
-		//background: $icbc-infoLigth;
+		//background: $brand-infoLigth;
 		//.feedbackline{background: transparent;} 
 	}
 		
@@ -113,7 +113,7 @@
 		}
 
 		.currency{
-			color: $icbc-font-blueGrey; 
+			color: $brand-font-blueGrey; 
 			margin-right: 2px;
 		}
 		.value{
@@ -136,13 +136,13 @@
 				}
 			}
 			&--inmediate{
-				color:$icbc-danger;
+				color:$brand-danger;
 			}
 			&--none{}
 		}
 		.prod-bullet{
 			display: inline-block;
-			background: $icbc-font-grey;
+			background: $brand-font-grey;
 			width: 22px;
 			height: 22px;
 			text-align: center;
@@ -154,7 +154,7 @@
 			margin: 0 4px 4px 0; 
 
 			&--active{
-				background: $icbc-font-darkBlueGrey;
+				background: $brand-font-darkBlueGrey;
 			}
 		}
 		
@@ -179,7 +179,7 @@
 			border-bottom: none;
 		}
 		.row-actions-mobile{
-			border-bottom: 1px solid $icbc-tableLine; 
+			border-bottom: 1px solid $brand-tableLine; 
 		}
 		
 		.row-thead{
@@ -198,7 +198,7 @@
 					left: 20px;
 					width: 45%; 
 					font-family: 'Gustan-Bold';
-					color: $icbc-font-blueGrey; 
+					color: $brand-font-blueGrey; 
 					//white-space: nowrap;
 					content: attr(data-th);
 				}
@@ -217,7 +217,7 @@
 
 				}
 				.currency{
-					color: $icbc-font-blueGrey; 
+					color: $brand-font-blueGrey; 
 				}
 				.value{
 					float: none;
